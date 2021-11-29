@@ -1,3 +1,7 @@
+'''
+Extract all frames according to default fps
+'''
+
 import os
 import numpy as np
 import cv2
@@ -36,7 +40,7 @@ def save_frame(video_path, save_dir, gap=1):
 
 if __name__ == "__main__":
     
-    video_paths = glob("aim_trains/*")
+    video_paths = glob("all_videos/*")
     
     save_dir = "frames"
 

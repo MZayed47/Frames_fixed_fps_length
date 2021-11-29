@@ -1,3 +1,7 @@
+'''
+Extract all frames with a fixed fps and untill a defined video length
+'''
+
 from datetime import timedelta
 import cv2
 import numpy as np

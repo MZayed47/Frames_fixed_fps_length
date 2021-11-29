@@ -1,10 +1,14 @@
+'''
+Extract all frames with a fixed fps
+'''
+
 import os
 import cv2
 import numpy as np
 from datetime import timedelta
 
 
-SAVING_FRAMES_PER_SECOND = 16
+SAVING_FRAMES_PER_SECOND = 16       # The required fps for frames extraction
 
 def format_timedelta(td):
     
